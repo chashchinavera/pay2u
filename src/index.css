@@ -1,5 +1,8 @@
 /* normalize */
 @import url(./vendor/normalize.css);
 
+/* fonts */
+@import url(./vendor/fonts/fonts.css);
+
 /* body */
 @import url(./vendor/body.css);
