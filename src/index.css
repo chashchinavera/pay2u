@@ -1,2 +1,5 @@
+/* normalize */
+@import url(./vendor/normalize.css);
+
 /* body */
 @import url(./vendor/body.css);
