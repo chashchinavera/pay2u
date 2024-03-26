@@ -1,7 +1,7 @@
 export function getTime() {
-  const today = new Date();
-  const hours = today.getHours();
-  const minutes = today.getMinutes();
+  const time = new Date();
+  const hours = time.getHours();
+  const minutes = time.getMinutes();
   if (minutes < 10)
     return `${hours}:0${minutes}`
   else
