@@ -3,6 +3,7 @@ import { getTime } from '../../utils/getTime';
 
 function Header() {
     const [currentTime, setCurrentTime] = useState(getTime());
+    
     return (
         <div className="header">
             <span className='header__time'>{currentTime}</span>
