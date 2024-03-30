@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(./vendor/fonts/fonts.css);
+
 :root {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
