@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 16px 0;
+}
+
+.main__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__link {
+    padding-left: 16px;
+}
+
+.main__button {
+    padding: 8px 12px;
+    border-radius: 16px;
+    background: #DA71FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
