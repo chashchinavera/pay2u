@@ -12,7 +12,8 @@ module.exports = {
         black: "#000",
         blue: {
           dark: "#1D2749",
-          light: "#80D1FF"
+          light: "#80D1FF",
+          transparent: "rgba(146, 213, 251, 0.10)",
         },
 
         purple: {
@@ -21,7 +22,14 @@ module.exports = {
           primary: "rgba(134, 56, 229, 0.80)",
         },
         orange: "#F8A51B",
-        violet: "#DA71FF",
+        violet: {
+          dark: "#DA71FF",
+          light: "rgba(139, 121, 238, 0.20)",
+        },
+        grey: {
+          dark: "rgb(176, 134, 243, 0.08)",
+          light: "rgb(176, 134, 243, 0.01)",
+        },
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],

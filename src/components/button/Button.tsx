@@ -23,9 +23,9 @@ const Button: React.FC<ButtonProps> = ({
     };
 
     const colorButtonClasses = {
-        "violet": "bg-violet",
+        "violet": "bg-violet-dark",
         "blue": "bg-blue-light",
-        "purple": "bg-primary",
+        "purple": "bg-purple-primary",
     };
 
     const buttonClasses = classNames(
