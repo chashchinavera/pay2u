@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "human22": "url('/images/nashi-proekty/Human22.png')",
+        "background": "url('./images/background.png')",
       },
       colors: {
         white: "#fff",
