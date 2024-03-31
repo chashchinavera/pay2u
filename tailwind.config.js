@@ -8,9 +8,12 @@ module.exports = {
         "background": "url('./images/background.png')",
       },
       colors: {
-        white: "#fff",
+        white: "#FFF",
         black: "#000",
-        blue: { dark: "#1D2749", light: "#80D1FF" },
+        blue: {
+          dark: "#1D2749",
+          light: "#80D1FF"
+        },
 
         purple: {
           text: "#8D59E9",
