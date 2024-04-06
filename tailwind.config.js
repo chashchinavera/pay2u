@@ -8,6 +8,7 @@ module.exports = {
         "background": "url('./images/background.png')",
         "bankImage": "url('./images/bankImage.png')",
         "creditCard": "url('./images/creditCard.png')",
+        "follow": "url('./images/follow.png')",
       },
       colors: {
         white: "#FFF",

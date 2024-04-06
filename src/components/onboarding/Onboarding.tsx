@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import React, { AnchorHTMLAttributes } from "react";
+import Header from "../header/Header";
 
 interface onboardingProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     bar2: string;
@@ -36,8 +37,12 @@ const buttonClasses = classNames(
 
 
     return (
+        <>
+        <Header 
+        theme={{ white: false }}
+        />
         <div className="flex flex-col mt-[12px] mr-[5px]">
-            <a href="/main" className="flex flex-row justify-end mr-[14px]">
+            <a href="/pay2u" className="flex flex-row justify-end mr-[14px]">
                 <img className='w-[18px] h-[18px]' alt='Закрыть онбординг' src='./images/icons/Cross.svg' />
             </a>
             <div className="flex flex-row mt-[23px] justify-between mx-[15px]">
@@ -52,6 +57,7 @@ const buttonClasses = classNames(
                 <button className="min-w-[343px] bg-violet-light pt-[13px] mt-[40px] pb-[14px] rounded-[16px] text-purple-text text-[16px] leading-normal font-bold mx-[15px]">Продолжить</button>
             </a>
         </div>
+        </>
     )
 };
 
