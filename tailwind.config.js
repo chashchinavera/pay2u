@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "background": "url('./images/background.png')",
+        "bankImage": "url('./images/bankImage.png')",
+        "creditCard": "url('./images/creditCard.png')",
       },
       colors: {
         white: "#FFF",
@@ -29,7 +31,12 @@ module.exports = {
         grey: {
           dark: "rgb(176, 134, 243, 0.08)",
           light: "rgb(176, 134, 243, 0.01)",
+          background: "#F4F6F7",
         },
+        gradient: {
+          first: "#9A75BA",
+          second: "#B59EC9",
+        }
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
