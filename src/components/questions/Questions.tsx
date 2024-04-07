@@ -6,6 +6,7 @@ function Questions() {
         <div className="mx-[16px]">
             {questions.map((question) => (
                 <Question 
+                key={question.id}
                 id={question.id}
                 title={question.question}
                 link={question.link}

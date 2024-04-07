@@ -1,6 +1,6 @@
 import Header from "../header/Header";
 import NavigationTab from "../navigationTab/NavigationTab";
-import Subs from "../subs/Subs";
+import Subs from "./subs/Subs";
 
 function MySubscriptions() {
     return (
@@ -15,7 +15,9 @@ function MySubscriptions() {
                 notifications="./images/icons/Notifications.svg"
                 link="/pay2u"
             />
-            <Subs />
+            <Subs
+                name="litres"
+            />
         </>
     )
 }
