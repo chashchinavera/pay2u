@@ -4,7 +4,8 @@ import Pay from '../pay/Pay';
 import Onboarding from '../onboarding/Onboarding';
 import MySubscriptions from '../my-subscriptions/MySubscriptions';
 import Help from '../help/Help';
-import Notifications from '../Notifications';
+import Notifications from '../notifications/Notifications';
+import Answers from '../help/answers/Answers';
 
 function App() {
 
@@ -68,15 +69,30 @@ function App() {
           element={
             <MySubscriptions />
           } />
-          <Route
+        <Route
           path='/help'
           element={
             <Help />
           } />
-          <Route
+        <Route
           path='/notifications'
           element={
             <Notifications />
+          } />
+        <Route
+          path='/question_1'
+          element={
+            <Answers />
+          } />
+        <Route
+          path='/cashback'
+          element={
+            <Answers />
+          } />
+        <Route
+          path='/expenses'
+          element={
+            <Answers />
           } />
       </Routes>
 

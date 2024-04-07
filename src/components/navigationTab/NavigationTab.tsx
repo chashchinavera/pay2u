@@ -6,6 +6,7 @@ interface navProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     title: string;
     help:  string;
     notifications: string;
+    link: string;
 };
 
 
@@ -14,6 +15,7 @@ const NavigationTab: React.FC<navProps> = ({
     className,
     help,
     notifications,
+    link,
 }) => {
 
     const baseClasses = 'flex flex-row mx-[17px] justify-between';
@@ -25,7 +27,7 @@ const NavigationTab: React.FC<navProps> = ({
 
     return (
         <div className={navClasses}>
-            <Link to="/pay2u"><img className='mt-[4px] ml-[1px]' alt='Назад в приложение банка' src='./images/icons/Arrow.svg' /></Link>
+            <Link to={link}><img className='mt-[4px] ml-[1px]' alt='Назад' src='./images/icons/Arrow.svg' /></Link>
             <p className='text-[20px] font-semibold leading-[24px]'>{title}</p>
             <div className="flex flex-row">
                 <Link to="/notifications"><img className='mr-[15px]' alt='Уведомления' src={notifications} /></Link>

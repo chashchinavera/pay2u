@@ -11,10 +11,11 @@ function Main() {
     return (
         <section className="mt-[10px]">
             <NavigationTab
-                title={''}
+                title=''
                 className=""
                 help="./images/icons/Help.svg"
                 notifications="./images/icons/Notifications.svg"
+                link="/"
             />
             <ButtonTab />
             <Subscriptions />

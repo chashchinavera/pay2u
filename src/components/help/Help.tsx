@@ -9,10 +9,11 @@ function Help() {
                 theme={{ white: false }}
             />
             <NavigationTab
-                title={'Вопросы-ответы'}
+                title='Вопросы-ответы'
                 className="mt-[10px] mb-[20px]"
                 help="./images/icons/help-line.svg"
                 notifications="./images/icons/Notifications.svg"
+                link="/pay2u"
             />
             <Questions />
         </>
