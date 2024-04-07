@@ -1,7 +1,14 @@
 import { useState } from 'react';
+import React, { AnchorHTMLAttributes } from "react";
 import { getTime } from "../../utils/getTime";
 
-function Header({theme} : {theme:any}) {
+interface headerProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
+    theme: any;
+};
+
+const Header: React.FC<headerProps> = ({
+    theme,
+}) => {
 
     const [currentTime, setCurrentTime] = useState(getTime());
 

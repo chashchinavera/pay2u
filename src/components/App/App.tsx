@@ -2,8 +2,13 @@ import { Routes, Route } from 'react-router-dom';
 import Bank from '../bank/Bank';
 import Pay from '../pay/Pay';
 import Onboarding from '../onboarding/Onboarding';
+import MySubscriptions from '../my-subscriptions/MySubscriptions';
+import Help from '../help/Help';
+import Notifications from '../Notifications';
 
 function App() {
+
+
   return (
     <div className="relative w-[375px] h-[100%] flex flex-col mx-auto">
 
@@ -58,6 +63,21 @@ function App() {
             picture={"third"}
           />}
         />
+        <Route
+          path='/my-subscriptions'
+          element={
+            <MySubscriptions />
+          } />
+          <Route
+          path='/help'
+          element={
+            <Help />
+          } />
+          <Route
+          path='/notifications'
+          element={
+            <Notifications />
+          } />
       </Routes>
 
     </div>

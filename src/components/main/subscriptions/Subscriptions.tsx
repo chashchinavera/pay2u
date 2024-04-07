@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Button from "../../button/Button";
 import SearchForm from "../searchForm/SearchForm";
 import SubscriptionsList from "../subscriptionsLIst/SubscriptionsList";
@@ -5,7 +6,7 @@ import SubscriptionsList from "../subscriptionsLIst/SubscriptionsList";
 function Subscriptions() {
     return (
         <section className="bg-white rounded-[30px] mt-[22px] px-[16px] pt-[20px]">
-            <a href="/subscriptions">
+            <Link to="/my-subscriptions">
                 <Button
                     varint="big"
                     color="purple"
@@ -14,7 +15,7 @@ function Subscriptions() {
                         <p className="w-[100%] text-center text-[16px] leading-[21px] mb-[3px]">Мои подписки</p>
                     }
                 />
-            </a>
+            </Link>
             <p className="text-[16px] leading-[21px] text-blue-dark font-bold mt-[21px]">Сервисы</p>
             <SearchForm />
             <SubscriptionsList />
